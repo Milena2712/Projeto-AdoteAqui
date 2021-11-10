@@ -1,0 +1,121 @@
+.cabecalhopai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(11, 60, 105);
+    height: 70px;
+    
+}
+
+h1{
+ font-family: 'Lucida Sans';
+ font-weight: bold;
+ font-size: 30px;
+ color: #FFFFFF;
+ margin: 10px;
+ 
+ 
+}
+
+.menunav{
+    background-color: rgb(230, 81, 13);
+    height: 80px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    
+}
+
+.menunav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Lucida Sans';
+}
+.catagolo-mae{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    
+    
+    
+}
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    flex: 0 1 22%;
+    text-align: center;
+    padding: 10px 10px 0 0;
+    align-items: center;
+    
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #070707;
+    margin: 10px;
+    text-align: center;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.botom{
+    width: 100px;
+    margin-top: 5px;
+    text-align: center;
+    background-color:rgb(11, 60, 105) ;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+body{
+    background-color: rgba(214, 96, 16, 0.925);
+   
+}
+
+footer{
+    background-color: rgb(11, 60, 105);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rodape{
+    height: 50px;
+    width: 50px;
+}
+.copy{
+    margin-top: 10px;
+}
+
+.imagem:hover{
+    width: 180px;
+    height: 180px;
+}
+
+.menunav a:hover{
+    color: rgb(11, 60, 105);
+}
+
+h1:hover{
+    font-size: 32px;
+}
+
+.menunav a{
+    transition: color 3s;
+}
