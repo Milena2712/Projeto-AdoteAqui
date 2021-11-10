@@ -119,3 +119,17 @@ h1:hover{
 .menunav a{
     transition: color 3s;
 }
+
+
+@media screen and (max-width: 700px){
+    h1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .menunav a{
+        display: flex;
+        flex-direction: column;
+    }
+}
