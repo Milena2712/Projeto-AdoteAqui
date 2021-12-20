@@ -1,8 +1,17 @@
+html, body{
+    height: 100%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
 .cabecalhopai{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(11, 60, 105);
+    background-color: #D9D9D9;
     height: 70px;
     
 }
@@ -11,14 +20,14 @@ h1{
  font-family: 'Lucida Sans';
  font-weight: bold;
  font-size: 30px;
- color: #FFFFFF;
+ color: #070707;
  margin: 10px;
  
  
 }
 
 .menunav{
-    background-color: rgb(230, 81, 13);
+    background-color: #bf5b04;
     height: 80px;
     border-radius: 10px 0 0 10px;
     display: flex;
@@ -30,7 +39,7 @@ h1{
 
 .menunav a{
     text-decoration: none;
-    color: black;
+    color: #D9D9D9;
     font-weight: bold;
     font-size: 16px;
     font-family: 'Lucida Sans';
@@ -61,7 +70,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 25px;
-    color: #070707;
+    color: #D9D9D9;
     margin: 10px;
     text-align: center;
 }
@@ -70,6 +79,7 @@ h2{
     width: 150px;
     height: 150px;
     border-radius: 15px;
+    border: solid #bf5b04;
 }
 
 .botom{
@@ -82,13 +92,13 @@ h2{
     margin-bottom: 5px;
 }
 
-body{
-    background-color: rgba(214, 96, 16, 0.925);
+main{
+    background-color: #121011
    
 }
 
 footer{
-    background-color: rgb(11, 60, 105);
+    background-color: #D9D9D9;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -109,7 +119,7 @@ footer{
 }
 
 .menunav a:hover{
-    color: rgb(11, 60, 105);
+    color: rgb(255, 255, 255);
 }
 
 h1:hover{
@@ -121,8 +131,9 @@ h1:hover{
 }
 
 
+
 @media screen and (max-width: 700px){
-    h1{
+    .cabecalhopai{
         display: none;
     }
 }
@@ -131,5 +142,13 @@ h1:hover{
     .menunav a{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .catagolo-mae{
+        display: flex;
+        flex-direction: column;
+        width: 100px;
     }
 }
